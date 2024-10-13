@@ -1,0 +1,45 @@
+.container{
+    background-color: #9B9B9B;
+    font-weight:lighter;
+    font-size: 24px;
+    color: white;
+    border-radius: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding-bottom: 2rem;
+}
+
+.button{
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding:12px 24px;
+    color: white;
+}
+
+.Walletamount{
+    color: #9DFF5B;
+    font-weight:800;
+}
+
+.expenseAmount{
+    color: #F4BB4A;
+    font-weight:800;
+}
+
+.walletButton{
+
+    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+    
+}
+
+.expenseButton{
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+
+}

@@ -1,0 +1,13 @@
+.bar{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: blanchedalmond;
+}
+
+.container{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
