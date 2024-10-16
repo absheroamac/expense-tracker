@@ -1,13 +1,13 @@
 import React, { useCallback, useState } from "react";
 import { PieChart, Pie, Cell } from "recharts";
 
-const data = [
-  { name: "Group A", value: 10 },
-  { name: "Group B", value: 20 },
-  { name: "Group C", value: 40 }
-];
+// const data = [
+//   { name: "Group A", value: 10 },
+//   { name: "Group B", value: 20 },
+//   { name: "Group C", value: 40 }
+// ];
 
-const COLORS = ["#FDE006", "#FF9304","#A000FF" ];
+const COLORS = ["#A000FF","#FF9304","#FDE006"];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -36,7 +36,7 @@ const renderCustomizedLabel = ({
   );
 };
 
-export default function PieChartComponent() {
+export default function PieChartComponent({data}) {
     return (
       <PieChart width={200} height={200}>
         <Pie

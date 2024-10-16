@@ -2,13 +2,9 @@ import React from "react";
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
 import styles from './BarChart.module.css'
 
-const data = [
-  { name: "Entertainment", uv: 4000 },
-  { name: "Food", uv: 3000 },
-  { name: "Travel", uv: 2000 }
-];
 
-export default function BarChartContainer() {
+
+export default function BarChartContainer({data}) {
   return (
     <div  className={styles.container}>
     <div style={{ width: "100%", height: 300}}>

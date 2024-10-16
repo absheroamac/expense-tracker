@@ -2,7 +2,7 @@ import React from 'react'
 import PieChartComponent from './PieChart'
 import styles from './PieChartContainer.module.css'
 
-export const PieChartContainer = (data) => {
+export const PieChartContainer = ({data}) => {
   return (
     <div className={styles.pieChartContainer}>
         <PieChartComponent data={data}/>
