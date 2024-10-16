@@ -66,7 +66,7 @@ export const Transactions = ({expenses,balance,updateBalance,setExpenses}) => {
     <div className={styles.container}>
     <div>
       {
-        expenses.length===0?"No Items":liveExpenses.map((transaction=>(<Transaction key={transaction.id} data={transaction} handleEdit ={()=>handleEdit(transaction.id)} handleDlt={()=>handleDlt(transaction.id)} />)))
+        expenses.length===0?(<div className={styles.empty}>No Transactions</div>):liveExpenses.map((transaction=>(<Transaction key={transaction.id} data={transaction} handleEdit ={()=>handleEdit(transaction.id)} handleDlt={()=>handleDlt(transaction.id)} />)))
       }
         
 

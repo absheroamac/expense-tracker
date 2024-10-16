@@ -51,3 +51,25 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media (max-width: 855px) {
+    .firstSection{
+        flex-wrap: wrap;
+    }
+    .secondSection{
+
+        flex-wrap: wrap;
+
+    }
+
+    .transactionsContainer{
+        width:100%
+    }
+
+    .barChartContainer{
+
+        width:100%
+    
+    }
+  }

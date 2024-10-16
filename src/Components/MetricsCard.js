@@ -9,7 +9,7 @@ export const MetricsCard = ({type, balance,expense,setIsOpen}) => {
     <div className={style.container}>
         {type==="wallet"?(
             <div className={style.card}>
-            <h3>Wallet Balance :<span className={style.Walletamount}>₹{balance}</span></h3>
+            <h3 className={style.h3}>Wallet Balance :<span className={style.Walletamount}>₹{balance}</span></h3>
             <button className={style.walletButton +" "+ style.button } onClick={()=>setIsOpen(true)}>+ Add Income</button>
             </div>
         ):( <div  className={style.card}>

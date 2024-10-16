@@ -35,3 +35,11 @@
     color: white;
     box-shadow: 0px 4px 4px 0px #00000040;
 }
+
+.empty{
+    height: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
